@@ -19,7 +19,7 @@ regulatory_Network = {
     "BACE1":{"amyloid": "activate"},
     "PSEN1":{"amyloid": "activate"},
     "amyloid":{"Tau": "activate"},
-    "Tau":{"Neuron_function": "inhibit"}
+    "Tau":{"Neuron_function": "inhibit", "amyloid" : "activate"}
 }
 
 def update_state(state, Network): 
